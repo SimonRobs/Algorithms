@@ -12,7 +12,7 @@ struct SidebarSectionView: View {
     let icon: String
     let buttons: [SidebarButton]
     
-    @State private var isOpen = false
+    @State private var isOpen = true
     
     var body: some View {
         Section {
