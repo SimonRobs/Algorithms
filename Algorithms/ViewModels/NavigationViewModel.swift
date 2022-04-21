@@ -8,7 +8,7 @@
 import Foundation
 
 class NavigationViewModel: ObservableObject {
-    @Published var activeRoute: Routes = .quicksort
+    @Published var activeRoute: Routes = .bubbleSort
 
     func navigate(to route: Routes) {
         activeRoute = route

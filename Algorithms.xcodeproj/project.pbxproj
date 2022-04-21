@@ -23,6 +23,10 @@
 		F4F074212810DADC008F1292 /* AlgorithmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F074202810DADC008F1292 /* AlgorithmView.swift */; };
 		F4F074242810DB3B008F1292 /* QuicksortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F074232810DB3B008F1292 /* QuicksortView.swift */; };
 		F4F074262810E260008F1292 /* QuicksortViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F074252810E260008F1292 /* QuicksortViewModel.swift */; };
+		F4F074282811BE8D008F1292 /* BubbleSortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F074272811BE8D008F1292 /* BubbleSortView.swift */; };
+		F4F0742A2811BEB3008F1292 /* BubbleSortViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F074292811BEB3008F1292 /* BubbleSortViewModel.swift */; };
+		F4F0742F2811E025008F1292 /* SortElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F0742E2811E025008F1292 /* SortElement.swift */; };
+		F4F074312811E167008F1292 /* Highlightable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F074302811E167008F1292 /* Highlightable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		F4F074202810DADC008F1292 /* AlgorithmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmView.swift; sourceTree = "<group>"; };
 		F4F074232810DB3B008F1292 /* QuicksortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuicksortView.swift; sourceTree = "<group>"; };
 		F4F074252810E260008F1292 /* QuicksortViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuicksortViewModel.swift; sourceTree = "<group>"; };
+		F4F074272811BE8D008F1292 /* BubbleSortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSortView.swift; sourceTree = "<group>"; };
+		F4F074292811BEB3008F1292 /* BubbleSortViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSortViewModel.swift; sourceTree = "<group>"; };
+		F4F0742E2811E025008F1292 /* SortElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortElement.swift; sourceTree = "<group>"; };
+		F4F074302811E167008F1292 /* Highlightable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highlightable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,9 +129,11 @@
 		F4F0740D2810CAE5008F1292 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F4F074302811E167008F1292 /* Highlightable.swift */,
 				F4F074122810CB65008F1292 /* Routes.swift */,
 				F4F074142810CF29008F1292 /* SidebarButton.swift */,
 				F4F074192810D0F1008F1292 /* SidebarSection.swift */,
+				F4F0742E2811E025008F1292 /* SortElement.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -133,6 +143,7 @@
 			children = (
 				F4F074102810CB51008F1292 /* NavigationViewModel.swift */,
 				F4F074252810E260008F1292 /* QuicksortViewModel.swift */,
+				F4F074292811BEB3008F1292 /* BubbleSortViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -157,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				F4F074232810DB3B008F1292 /* QuicksortView.swift */,
+				F4F074272811BE8D008F1292 /* BubbleSortView.swift */,
 			);
 			path = Visualizations;
 			sourceTree = "<group>";
@@ -234,9 +246,13 @@
 				F4F073F92810B08C008F1292 /* ContentView.swift in Sources */,
 				F4F074132810CB65008F1292 /* Routes.swift in Sources */,
 				F4F074242810DB3B008F1292 /* QuicksortView.swift in Sources */,
+				F4F074312811E167008F1292 /* Highlightable.swift in Sources */,
+				F4F0742F2811E025008F1292 /* SortElement.swift in Sources */,
 				F4F0741A2810D0F1008F1292 /* SidebarSection.swift in Sources */,
+				F4F0742A2811BEB3008F1292 /* BubbleSortViewModel.swift in Sources */,
 				F4F074112810CB51008F1292 /* NavigationViewModel.swift in Sources */,
 				F4F074082810C5B7008F1292 /* SiderbarView.swift in Sources */,
+				F4F074282811BE8D008F1292 /* BubbleSortView.swift in Sources */,
 				F4F074152810CF29008F1292 /* SidebarButton.swift in Sources */,
 				F4F0741F2810DA27008F1292 /* Extensions.swift in Sources */,
 				F4F0740A2810C5C1008F1292 /* SidebarSectionView.swift in Sources */,

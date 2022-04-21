@@ -15,6 +15,7 @@ struct ContentView: View {
         NavigationView {
             SiderbarView()
             AlgorithmView()
+                .background(.thinMaterial)
         }
     }
 }

@@ -15,6 +15,8 @@ struct AlgorithmView: View {
         switch navigationViewModel.activeRoute {
         case .quicksort:
             QuicksortView()
+        case .bubbleSort:
+            BubbleSortView()
         default:
             Text("Select an algorithm to visualize")
             

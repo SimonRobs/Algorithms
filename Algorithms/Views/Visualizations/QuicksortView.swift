@@ -29,7 +29,7 @@ struct QuicksortView: View {
     
     var controls: some View {
         Button("Draw Circles") {
-            viewModel.addCircles(amount: 64)
+            viewModel.addCircles(amount: 6400)
         }
         .frame(minHeight: 200)
     }
