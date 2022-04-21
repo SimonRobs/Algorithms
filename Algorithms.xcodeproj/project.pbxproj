@@ -11,6 +11,17 @@
 		F4F073F92810B08C008F1292 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F073F82810B08C008F1292 /* ContentView.swift */; };
 		F4F073FB2810B08D008F1292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F073FA2810B08D008F1292 /* Assets.xcassets */; };
 		F4F073FE2810B08D008F1292 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F073FD2810B08D008F1292 /* Preview Assets.xcassets */; };
+		F4F074062810C5AB008F1292 /* SidebarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F074052810C5AB008F1292 /* SidebarButtonView.swift */; };
+		F4F074082810C5B7008F1292 /* SiderbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F074072810C5B7008F1292 /* SiderbarView.swift */; };
+		F4F0740A2810C5C1008F1292 /* SidebarSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F074092810C5C1008F1292 /* SidebarSectionView.swift */; };
+		F4F074112810CB51008F1292 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F074102810CB51008F1292 /* NavigationController.swift */; };
+		F4F074132810CB65008F1292 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F074122810CB65008F1292 /* Routes.swift */; };
+		F4F074152810CF29008F1292 /* SidebarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F074142810CF29008F1292 /* SidebarButton.swift */; };
+		F4F074182810D0E3008F1292 /* SidebarLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F074172810D0E3008F1292 /* SidebarLinks.swift */; };
+		F4F0741A2810D0F1008F1292 /* SidebarSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F074192810D0F1008F1292 /* SidebarSection.swift */; };
+		F4F0741F2810DA27008F1292 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F0741E2810DA27008F1292 /* Extensions.swift */; };
+		F4F074212810DADC008F1292 /* AlgorithmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F074202810DADC008F1292 /* AlgorithmView.swift */; };
+		F4F074242810DB3B008F1292 /* QuicksortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F074232810DB3B008F1292 /* QuicksortView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +31,17 @@
 		F4F073FA2810B08D008F1292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4F073FD2810B08D008F1292 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4F073FF2810B08D008F1292 /* Algorithms.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Algorithms.entitlements; sourceTree = "<group>"; };
+		F4F074052810C5AB008F1292 /* SidebarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarButtonView.swift; sourceTree = "<group>"; };
+		F4F074072810C5B7008F1292 /* SiderbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiderbarView.swift; sourceTree = "<group>"; };
+		F4F074092810C5C1008F1292 /* SidebarSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarSectionView.swift; sourceTree = "<group>"; };
+		F4F074102810CB51008F1292 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		F4F074122810CB65008F1292 /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		F4F074142810CF29008F1292 /* SidebarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarButton.swift; sourceTree = "<group>"; };
+		F4F074172810D0E3008F1292 /* SidebarLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarLinks.swift; sourceTree = "<group>"; };
+		F4F074192810D0F1008F1292 /* SidebarSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarSection.swift; sourceTree = "<group>"; };
+		F4F0741E2810DA27008F1292 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F4F074202810DADC008F1292 /* AlgorithmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmView.swift; sourceTree = "<group>"; };
+		F4F074232810DB3B008F1292 /* QuicksortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuicksortView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +75,10 @@
 			isa = PBXGroup;
 			children = (
 				F4F073F62810B08C008F1292 /* AlgorithmsApp.swift */,
-				F4F073F82810B08C008F1292 /* ContentView.swift */,
+				F4F0740C2810CAD3008F1292 /* Views */,
+				F4F0740D2810CAE5008F1292 /* Models */,
+				F4F074162810D0B4008F1292 /* Constants */,
+				F4F0740E2810CAEF008F1292 /* ViewModels */,
 				F4F073FA2810B08D008F1292 /* Assets.xcassets */,
 				F4F073FF2810B08D008F1292 /* Algorithms.entitlements */,
 				F4F073FC2810B08D008F1292 /* Preview Content */,
@@ -67,6 +92,70 @@
 				F4F073FD2810B08D008F1292 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4F0740B2810CAC7008F1292 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				F4F074072810C5B7008F1292 /* SiderbarView.swift */,
+				F4F074092810C5C1008F1292 /* SidebarSectionView.swift */,
+				F4F074052810C5AB008F1292 /* SidebarButtonView.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		F4F0740C2810CAD3008F1292 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4F074222810DB16008F1292 /* Visualization */,
+				F4F0741D2810D9C8008F1292 /* Common */,
+				F4F0740B2810CAC7008F1292 /* Sidebar */,
+				F4F073F82810B08C008F1292 /* ContentView.swift */,
+				F4F074202810DADC008F1292 /* AlgorithmView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4F0740D2810CAE5008F1292 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4F074122810CB65008F1292 /* Routes.swift */,
+				F4F074142810CF29008F1292 /* SidebarButton.swift */,
+				F4F074192810D0F1008F1292 /* SidebarSection.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4F0740E2810CAEF008F1292 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F4F074102810CB51008F1292 /* NavigationController.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F4F074162810D0B4008F1292 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F4F074172810D0E3008F1292 /* SidebarLinks.swift */,
+				F4F0741E2810DA27008F1292 /* Extensions.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F4F0741D2810D9C8008F1292 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F4F074222810DB16008F1292 /* Visualization */ = {
+			isa = PBXGroup;
+			children = (
+				F4F074232810DB3B008F1292 /* QuicksortView.swift */,
+			);
+			path = Visualization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +229,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4F073F92810B08C008F1292 /* ContentView.swift in Sources */,
+				F4F074132810CB65008F1292 /* Routes.swift in Sources */,
+				F4F074242810DB3B008F1292 /* QuicksortView.swift in Sources */,
+				F4F0741A2810D0F1008F1292 /* SidebarSection.swift in Sources */,
+				F4F074112810CB51008F1292 /* NavigationController.swift in Sources */,
+				F4F074082810C5B7008F1292 /* SiderbarView.swift in Sources */,
+				F4F074152810CF29008F1292 /* SidebarButton.swift in Sources */,
+				F4F0741F2810DA27008F1292 /* Extensions.swift in Sources */,
+				F4F0740A2810C5C1008F1292 /* SidebarSectionView.swift in Sources */,
+				F4F074212810DADC008F1292 /* AlgorithmView.swift in Sources */,
 				F4F073F72810B08C008F1292 /* AlgorithmsApp.swift in Sources */,
+				F4F074182810D0E3008F1292 /* SidebarLinks.swift in Sources */,
+				F4F074062810C5AB008F1292 /* SidebarButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

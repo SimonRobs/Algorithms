@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct AlgorithmsApp: App {
+    
+    @StateObject var navigationViewModel = NavigationViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(navigationViewModel)
+        }
+        .commands {
+            SidebarCommands()
         }
     }
 }
